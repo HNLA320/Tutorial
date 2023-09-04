@@ -1,6 +1,6 @@
 {
   "homepage": "http://Sprkly.github.io/Tutorial",
-  "name": "new",
+  "name": "Tutorial",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,11 +23,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
